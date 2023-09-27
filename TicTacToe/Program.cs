@@ -22,6 +22,8 @@ namespace TicTacToe
 
                 //var input = Console.Read();
                 int move = Convert.ToInt32(Console.ReadLine());
+
+                int test = 0;
                 
                 while (!ValidMove(board, move))
                 {
